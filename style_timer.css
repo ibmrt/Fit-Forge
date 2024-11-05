@@ -1,0 +1,124 @@
+.smartphone{  
+    width:320px;
+    height:620px;
+    margin:auto;
+    border:16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    background-color: #88ff8e;
+  }
+  
+  .smartphone:before {
+    content: relative;
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: relative;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+    background-color: #88ff8e;
+  }
+  
+  .smartphone .content {
+    width: 320px;
+    height: 620px;
+    background: white;
+    background-color: #88ff8e;
+  }
+  
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #88ff8e;
+  }
+
+  #button1{
+    background-color: #04AA6D; /* Green */
+    border: 1px solid green;
+    color: white;
+    height:30px;
+    width:100px;
+    text-align: center;
+    font-size: 15px;
+    transition-duration: 0.4s;  
+    float:left;
+    cursor:pointer;
+    margin-right:5px;
+    margin-top:2px;
+  }
+  
+  #button2{
+    background-color: #04AA6D; /* Green */
+    border: 1px solid green;
+    color: white;
+    height:30px;
+    width:100px;
+    text-align: center;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    float:center;
+    cursor:pointer;
+    margin-top:2px;
+    margin-right:5px;
+    margin-left: 5px;
+  }
+  #button3{
+    background-color: #04AA6D; /* Green */
+    border: 1px solid green;
+    color: white;
+    height:30px;
+    width:100px;
+    text-align: center;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    float:right;
+    cursor:pointer;
+    margin-top:2px;
+    margin-left: 5px;
+  }
+  h1{
+    text-align: center;
+    font-size: 62px;
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  #timer{
+    position: relative;
+    margin: 1px;
+    border: solid 1px black;
+    height: 500px;
+    background-color: rgb(225, 219, 219);
+  }
+  #Status{
+    font-size: 80px;
+    text-align: center;
+  }
+  #time{
+    font-size: 120px;
+    text-align: center;
+  }
+  #interval{
+    font-size: 60px;
+    text-align: center;
+  }
+  input[type="button"]{
+    display: block;
+    margin : 0 auto;
+    font-size: 24px;
+  }
+  #textDiv{
+    position: absolute;
+    bottom: 0;
+    font-size: 24px;
+    margin-bottom: 1%;
+  }
+  input[type="text"]{
+    width: 100px;
+    font-size: 20px;
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="style_bmi.css">
+        <meta charset="uft-8">
+            <title>BMI</title>
+        </meta>
+    </head>
+    <body>
+        <div class="smartphone">
+            <nav>
+                <button id="button1" onclick="location.href='home.html'">Home</a>
+                <button id="button2" onclick="location.href='diet.html'">Diet</button>
+                <button id="button3" onclick="location.href='timer.html'">Timer</button>
+            </nav>
+            <h1>BMI Calculator</h1>
+            <div id="weightDiv">
+                <p1> Weight: </p1> 
+                <input type="text" id="weight"></input>
+                <input class="input" type="radio" id="lbBtn" name="weight" value="lb" checked="true"></input>
+                <label for="lbBtn">lb</label>
+                <input class="input" type="radio" id="kgBtn" name="weight" value="kg"></input>
+                <label for="kgBtn">kg</label><br>
+            </div>
+            <div id="heightDiv">
+                <p2> Height: </p2> 
+                <input type="text" id="height"></input>
+                <input type="radio" id="inBtn" name="height" value="in" checked="true"></input>
+                <label for="inBtn">in</label>
+                <input type="radio" id="cmBtn" name="height" value="cm"></input>
+                <label for="cmBtn">cm</label><br>
+            </div>
+            <input type="submit" id="submit" value="Calculate" onClick="calcBMI()"></input>
+            <div id="BmiValueBox">0</div>
+            <table id="BmiTable">
+                <tr> 
+                    <th>BMI Categories: </th>
+                </tr>
+                <tr>
+                    <td id="bmiUnder">Underweight: ≤ 18.5</td>
+                </tr>
+                <tr>
+                    <td id="bmiNormal">Normal weight: 18.5–24.9</td>
+                </tr>
+                <tr>
+                    <td id="bmiOver">Overweight: 25–29.9</td>
+                </tr>
+                <tr>
+                    <td id="bmiObesity">Obesity: ≥ 30 </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+    <script type="text/javascript" src="bmi.js"></script>
+</html>

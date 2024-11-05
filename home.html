@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="style_home.css">
+        <meta charset=" utf-8">
+            <title>Work Out App</title>
+        </meta>
+        <script type="text/javascript" src="script.js"></script>
+        <style>
+            .pointer {cursor:pointer}
+        </style>
+    </head>
+    <body>
+        <script>
+            function cord(){
+                function updateDisplay(event) {
+				    console.log(event.pageX + " " + event.pageY)
+			    }
+                document.body.addEventListener("click", updateDisplay, false);
+            }
+            cord();
+        </script>
+        <div class="smartphone">
+            <div class="content">
+
+                <div id="deltoid" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('deltoid');">close</button> 
+                        <muscle>Deltoid</muscle>
+                        <img src="deltoid.png" class="modalImage">
+                        <p>Wikipedia: The deltoid muscle is the muscle forming the rounded contour of the human shoulder. It is also known as the 'common shoulder muscle'</p>
+                        <p1>Click Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=kDqklk1ZESo" style="color:lightblue;">Side Dumbbell Lateral Raises</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=2yjwXTZQDDI">Standing Barbell Overhead Press</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=3ml7BH7mNwQ">Arnold Presses</a>
+                    </div>
+                </div>
+
+                <div id="pectoralis" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('pectoralis');">close</button> 
+                        <muscle>Pectoralis</muscle>
+                        <img src="pectoralis.png" class="modalImage">
+                        <p>Wikipedia: The pectoralis major (from Latin pectus 'breast') is a thick, fan-shaped or triangular convergent muscle of the human chest. It makes up the bulk of the chest muscles and lies under the breast. Beneath the pectoralis major is the pectoralis minor muscle.</p>
+                        <p1>CClick Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=rT7DgCr-3pg">Barbell Benchpress</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=taI4XduLpTk">Cable Crossover</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=QENKPHhQVi4">Dumbbell Flys</a>
+                    </div>
+                </div>
+                
+                <div id="rectus-abdominis" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('rectus-abdominis');">close</button> 
+                        <muscle>Rectus Abdominis</muscle>
+                        <img src="rectus-abdominus.png" class="modalImage">
+                        <p>Wikipedia: The rectus abdominis muscle, (Latin: straight abdominal) also known as the "abdominal muscle" or simply the "abs", is a pair of segmented skeletal muscle on the ventral aspect of a person's abdomen.</p>
+                        <p1>Click Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=pvIjsG5Svck">Planks</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=lS5B0MmLgZs">Hanging Knee Raises</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=Iwyvozckjak">Bicycle Crunch</a>
+                    </div>
+                </div>
+
+                <div id="abdominal-external" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('abdominal-external');">close</button> 
+                        <muscle>Abdominal External</muscle>
+                        <img src="abdominal-external.png" class="modalImage">
+                        <p>Wikipedia: The external oblique is situated on the lateral and anterior parts of the abdomen. It is broad, thin, and irregularly quadrilateral, its muscular portion occupying the side, its aponeurosis the anterior wall of the abdomen.</p>
+                        <p1>Click Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=QbL1ksNO0Js">Oblique Crunches</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=9V9csctSKj0">Russian Twist</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=cnyTQDSE884">Moun</a>
+                    </div>
+                </div>
+
+                <div id="biceps" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('biceps');">close</button> 
+                        <muscle>Biceps</muscle>
+                        <img src="biceps.png" class="modalImage">
+                        <p>Wikipedia: The biceps or biceps brachii (Latin: musculus biceps brachii, "two-headed muscle of the arm") are a large muscle that lies on the front of the upper arm between the shoulder and the elbow.</p>
+                        <p1>Click Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=pvIjsG5Svck">Planks</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=lS5B0MmLgZs">Hanging Knee Raises</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=Iwyvozckjak">Bicycle Crunch</a>
+                    </div>
+                </div>
+                
+                <div id="triceps" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('triceps');">close</button> 
+                        <muscle>Triceps</muscle>
+                        <img src="triceps.png" class="modalImage">
+                        <p>Wikipedia: The triceps, or triceps brachii (Latin for "three-headed muscle of the arm"), is a large muscle on the back of the upper limb of many vertebrates. It consists of 3 parts: the medial, lateral, and long head. It is the muscle principally responsible for extension of the elbow joint (straightening of the arm).</p>
+                        <p1>Click Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=mRmIthbCSNI">Tricep Pulldowns</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=4re6CJ0XNF8">Lying Triceps Extension</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=ZR5U3sb-KeE">Diamond Pushup</a>
+                    </div>
+                </div>
+
+                <div id="brachioradialis" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('brachioradialis');">close</button> 
+                        <muscle>Brachioradialis</muscle>
+                        <img src="brachioradialis.png" class="modalImage">
+                        <p>Wikipedia: The brachioradialis is a muscle of the forearm that flexes the forearm at the elbow. It is also capable of both pronation and supination, depending on the position of the forearm. It is attached to the distal styloid process of the radius by way of the brachioradialis tendon, and to the lateral supracondylar ridge of the humerus.</p>
+                        <p1>Click Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=On2eca-C00E">Crossbody Hammer Curl</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=ZrpRBgswtHs">Zottman Curl</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=fIWP-FRFNU0">Preacher Curl</a>
+                    </div>
+                </div>
+
+                <div id="satorius" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('satorius');">close</button> 
+                        <muscle>Satorius</muscle>
+                        <img src="satorius.png" class="modalImage">
+                        <p>Wikipedia: The brachioradialis is a muscle of the forearm that flexes the forearm at the elbow. It is also capable of both pronation and supination, depending on the position of the forearm. It is attached to the distal styloid process of the radius by way of the brachioradialis tendon, and to the lateral supracondylar ridge of the humerus.</p>
+                        <p1>Click Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=v2GfVnjmY7c">Box Step-Up</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=sMVyjUCp-XI">Narrow Stance Squat</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=K9qytmsQVu0">Clamshell</a>
+                    </div>
+                </div>
+
+                <div id="rectus-femoris" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('rectus-femoris');">close</button> 
+                        <muscle>Rectus Femoris</muscle>
+                        <img src="rectus-femoris.png" class="modalImage">
+                        <p>Wikipedia: The rectus femoris muscle is one of the four quadriceps muscles of the human body. The others are the vastus medialis, the vastus intermedius (deep to the rectus femoris), and the vastus lateralis. All four parts of the quadriceps muscle attach to the patella (knee cap) by the quadriceps tendon.</p>
+                        <p1>Click Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=wrwwXE_x-pQ">Lunges</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=QQWsscOgGkU">Jump Squat</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=B6rGDcfyPto">Leg Press</a>
+                    </div>
+                </div>
+
+                <div id="fibularis" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('fibularis');">close</button> 
+                        <muscle>Fibularis Longus</muscle>
+                        <img src="fibularis.png" class="modalImage">
+                        <p>Wikipedia: In human anatomy, the fibularis longus (also known as peroneus longus) is a superficial muscle in the lateral compartment of the leg. It acts to tilt the sole of the foot away from the midline of the body (eversion) and to extend the foot downward away from the body (plantar flexion) at the ankle.</p>
+                        <p1>Click Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=QLR-3R3GV3Y">Heel Raises</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=Xi5Ka85TCbI">Ankle Inversion/Eversion</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=7SF7AYh2_Yw">Leg Balance</a>
+                    </div>
+                </div>
+
+                <div id="soleus" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('soleus');">close</button> 
+                        <muscle>Soleus and Gastrocnemius</muscle>
+                        <img src="soleus.png" class="modalImage" width="150" height="200">
+                        <p>Wikipedia: The soleus is a powerful muscle in the back part of the lower leg (the calf). It runs from just below the knee to the heel and is involved in standing and walking. The gastrocnemius muscle (plural gastrocnemii) is a superficial two-headed muscle that is in the back part of the lower leg of humans. It is located superficial to the soleus in the posterior (back) compartment of the leg.</p>
+                        <p1>Click Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=C_UwdAuD7ZY">Soleus Calf Raises</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=nXyHd3ZRbYQ">Soleus Bridge</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=u45C0NByqF8">Seated Soleus Muscle Strengthening</a>
+                    </div>
+                </div>
+
+                <div id="tibialis" class="modal">
+                    <div class="modal-content">
+                        <button class="close" onclick="shut('tibialis');">close</button> 
+                        <muscle>Fibularis Longus</muscle>
+                        <img src="tibialis.png" class="modalImage">
+                        <p>Wikipedia: The tibialis anterior muscle is a muscle of the anterior compartment of the lower leg. It originates from the upper portion of the tibia; it inserts into the medial cuneiform and first metatarsal bones of the foot. It acts to dorsiflex and invert the foot. This muscle is mostly located near the shin.</p>
+                        <p1>Click Below To See How To Train The Muscle</p1> 
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=enJ6yYJerVw">Toe Raises</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=wLY7dLlBptA">Anterior Tibialis Raises</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=C8Cjt1uEAQ4">Lying Shin Stretch</a>
+                    </div>
+                </div>
+
+                <nav>
+                    <button id="button1" onclick="location.href='bmi.html'">BMI</a>
+                    <button id="button2" onclick="location.href='diet.html'">Diet</button>
+                    <button id="button3" onclick="location.href='timer.html'">Timer</button>
+                </nav>
+                <h1>Muscles</h1>
+                <br>
+                <h3>Hover And Click The Muscle You Want to See</h3>
+                <img src="figure.png" usemap="#musclemap" width="320" height="530" class="center">
+                <map name="musclemap">
+                    <area shape="rect" coords="86,104,236,126"  onclick="check('deltoid');" title="deltoid" class="pointer">
+                    <area shape="rect" coords="104,138,202,163" onclick="check('pectoralis');" title="pectoralis" class="pointer">
+                    <area shape="rect" coords="130,175,180,234" onclick="check('rectus-abdominis');" title="rectus-abdominis" class="pointer">
+                    <area shape="rect" coords="109,182,127,255" onclick="check('abdominal-external');" title="abdominal-external-left" class="pointer">
+                    <area shape="rect" coords="184,182,209,255" onclick="check('abdominal-external');" title="abdominal-external-right" class="pointer">
+                    <area shape="rect" coords="212,156,239,204" onclick="check('biceps');" title="biceps-right" class="pointer">
+                    <area shape="rect" coords="75,159,100,199" onclick="check('triceps');" title="tricep-left" class="pointer">
+                    <area shape="rect" coords="44,215,94,255" onclick="check('brachioradialis');" title="brachioradialis-left" class="pointer">
+                    <area shape="rect" coords="220,215,260,255" onclick="check('brachioradialis');" title="brachioradialis-right" class="pointer">
+                    <area shape="rect" coords="111,280,208,305" onclick="check('satorius');" title="satorius" class="pointer">
+                    <area shape="rect" coords="105,337,197,367" onclick="check('rectus-femoris');" title="rectus-femoris" class="pointer">
+                    <area shape="rect" coords="111,416,128,473" onclick="check('fibularis');" title="fibularis-longus-left" class="pointer">
+                    <area shape="rect" coords="187,416,204,473" onclick="check('fibularis');" title="fibularis-longus-right" class="pointer">
+                    <area shape="rect" coords="138,421,171,484" onclick="check('soleus');" title="soleus-and-gastrocnemius" class="pointer">
+                    <area shape="rect" coords="128,416,138,484" onclick="check('tibialis');" title="tibialis-anterior-left" class="pointer">
+                    <area shape="rect" coords="171,416,187,484" onclick="check('tibialis');" title="tibialis-anterior-right" class="pointer">
+                </map>
+            </div>
+        </div>
+    </body>
+</html>

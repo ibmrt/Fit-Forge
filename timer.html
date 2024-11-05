@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="style_timer.css">
+        <meta charset="uft-8">
+            <title>Timer</title>
+        </meta>
+        <!-- <script type="text/javascript" src="user_timer.js"></script> -->
+    </head>
+    <body>
+        <div class="smartphone">
+            <div class="content">
+                <nav id="navigation">
+                    <button id="button1" onclick="location.href='home.html'">Muscle</a>
+                    <button id="button2" onclick="location.href='bmi.html'">BMI</button>
+                    <button id="button3" onclick="location.href='diet.html'">Diet</button>
+                </nav>
+                <h1>Timer</h1>
+                <div id="timer">
+                    <div id="Status"></div>
+                    <div id="time">00:00</div>
+                    <div id="interval">0/5</div>
+                    <input type="button" id="startBtn" name="btn" value="Start" style="background-color:green; color:white; border-radius:25px;" ></input>
+                    <input type="button" id="resetBtn" name="btn" value="Reset"></input>
+                    <div id="textDiv">
+                        <div id="numIntervalsDiv">
+                            Number of Intervals:
+                            <input type="text" id="numIntervals" value="5"></input>
+                        </div>
+                        <div id="intervalTimeDiv">
+                            Time Per Interval(s):
+                            <input type="text" id="intervalTime" value="5" placeholder="in seconds"></input>
+                        </div>
+                        <div id="restTimeDiv">
+                            Rest Time(s):
+                            <input type="text" id="restTime" value="5" placeholder="in seconds"></input>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="tabata_timer.js"></script>
+</html>

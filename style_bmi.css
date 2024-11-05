@@ -1,0 +1,164 @@
+.smartphone{
+   
+    width:320px;
+    height:620px;
+    margin:auto;
+    border:16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    background-color: #88ff8e;
+  }
+  
+  .smartphone:before {
+    content: relative;
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  .smartphone .content {
+    width: 320px;
+    height: 620px;
+    background: white;
+  }
+  
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #button1{
+    background-color: #04AA6D; /* Green */
+    border: 1px solid green;
+    color: white;
+    height:30px;
+    width:100px;
+    text-align: center;
+    font-size: 15px;
+    transition-duration: 0.4s;  
+    float:left;
+    cursor:pointer;
+    margin-right:5px;
+    margin-top:2px;
+  }
+  
+  #button2{
+    background-color: #04AA6D; /* Green */
+    border: 1px solid green;
+    color: white;
+    height:30px;
+    width:100px;
+    text-align: center;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    float:center;
+    cursor:pointer;
+    margin-top:2px;
+    margin-right:5px;
+    margin-left: 5px;
+  }
+  #button3{
+    background-color: #04AA6D; /* Green */
+    border: 1px solid green;
+    color: white;
+    height:30px;
+    width:100px;
+    text-align: center;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    float:right;
+    cursor:pointer;
+    margin-top:2px;
+    margin-left: 5px;
+  }
+  div{
+    text-align:left;
+  }
+  p{
+    position:relative;
+    text-align:center;
+    color:rgb(0, 0, 0);
+  }
+  #weight{
+    height: 35px;
+    position: auto;
+    border: 2px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .14);
+    background-color: AliceBlue;
+    font-size: 14px;
+    
+  }
+
+  #height{
+    height: 35px;
+    position: relative;
+    border: 2px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .14);
+    background-color: AliceBlue;
+    font-size: 14px;
+  }
+  p1{
+    font-size: 30px;
+  }
+  p2{
+    font-size: 30px;
+  }
+  #heightDiv{
+    margin-top:10px;
+  }
+  input[type="text"]{
+    width: 120px;
+  }
+  #BmiValueBox{
+    text-align:center ;
+    font-size:35px;
+    color:red;
+    border: solid 2px black;
+    width: 200px;
+    margin: auto;
+    margin-top: 3%;
+  }
+  #submit{
+    font-size: 24px;
+    margin: 5px;
+  }
+  h1{
+    text-align: center;
+    font-size: 62px;
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+  }
+table, th, td{
+  border: solid 2px black;
+}
+th{
+  background-color: grey;
+}
+#bmiUnder{
+  background-color: yellow;
+}
+#bmiNormal{
+  background-color: lightgreen;
+}
+#bmiOver{
+  background-color: green;
+}
+#bmiObesity{
+  background-color: red;
+}
+#BmiTable{
+  position: relative;
+  font-size: 24px;
+  margin: auto;
+  margin-top: 10%;
+}
